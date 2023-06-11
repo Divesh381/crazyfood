@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyFood</title>
+    <link rel="stylesheet" href="./css/design.css">
+</head>
+
+<body>
+    <!-- ################### header ################# -->
+    <header>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+        <button class="openbtn" onclick="openNav()">☰</button>
+
+        <a href="" class="logo">CrazyFood</a>
+        <div class="group">
+            <ul class="navigation">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="search-icon">
+            </ul>
+            <div class="container-fluid">
+                <form class="d-flex input-group w-auto" id="et-search-form">
+                    <input type="search" id="searchnav" class="form-control  rounded" placeholder=" Search "
+                        aria-label="Search" aria-describedby="search-addon" />
+                </form>
+                <span class="input-group-text text-white border-0 " id="search-addon">
+                    <ion-icon name="close-circle-outline" class="closeBtn" onclick="closeSearch()"></ion-icon>
+                    <ion-icon name="search-outline" class="searchBtn" onclick="openSearch()"></ion-icon>
+                    <!-- <ion-icon name="close-circle-outline" class="closeBtn"></ion-icon> -->
+                </span>
+            </div>
+            <span>
+                <ion-icon name="fast-food-outline" class="shopBtn"></ion-icon>
+            </span>
+        </div>
+        <!-- <button onclick="window.location.href = 'play.html';">Play</button> -->
+        <!-- <li><a href="sign.html" id="Sign-in">Sign in</a></li> -->
+        <li><a onclick="window.location.href = 'sign.html';"id="Sign-in">Sign in</a></li>
+        <!-- <li><a href="#">Log In</a></li> -->
+
+        </div>
+
+    </header>
+    <!-- ############ section 1############ -->
+    <section id="section1">
+        <div class="container">
+            <div class="column">
+                <div class="row">
+                    
+                    <h3 class="typing"> Healthy Royal Food</h3>
+                    <p>A healthful diet means eating nutrient dense foods, in the right quantities, from all the major
+                        food groups.</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel-main" id="carousel">
+                    <div class="carousel-feature bg-1">
+                        <div class="w3-content w3-section" style="max-width:300px">
+                            <img class="mySlides" src="img/bupp.png" style="width:80%">
+                            <img class="mySlides" src="img/3-ice-cream.png" style="width:80%">
+                            <img class="mySlides" src="img/5-2-tea-png.png" style="width:80%">
+                            <img class="mySlides" src="img/11-2-juice.png" style="width:80%">
+                            <img class="mySlides" src="img/14-ice-cream.png" style="width:80%">
+                            <img class="mySlides" src="img/15-ice-cream.png" style="width:80%">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ######### Section -2############ -->
+    <section id="section2">
+        <h2>What's on your mind ?</h2>
+        <div class="next-prev">
+            <a href="#" class="previous round">&#8249;</a>
+            <a href="#" class="next round">&#8250;</a>
+        </div>
+
+        <div class="container-section2">
+            <div class="row-section2">
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/bread-tomt.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/briyani.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/Breakfast.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/burger.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/chaumin.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/greenmeat.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/meat-chili.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/meat-potata.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/newdish.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/sweet.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/veageBriyani.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/junk-food.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/sweets-free.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/beer-food-portsmouth.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/beer-image.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/bread-tomt.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/briyani.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/burger-chips.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/Breakfast.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/coffee-png.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/cream-ice.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/ice-cream.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/food-central-gyros.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/drink.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/food-plate.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/food-transparent.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/beer-food-portsmouth.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-column" style="max-width:300px">
+                        <img class="row-img" src="cont-img/true-food.png" style="width:100%">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ############ section 3 ############ -->
+    <section id="section3">
+        <h2 class="h2-online">Online Fast Food</h2>
+        <!-- <div  class="next-prev">
+            <a href="#" class="previous round">&#8249;</a>
+            <a href="#" class="next round">&#8250;</a>
+        </div> -->
+        <div class="container3-section3">
+
+            <div id="grid">
+
+                <div class="card" >
+                    <img  class="image-card" src="section3-img/aluverga.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/blacverga.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/daalfry.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/aluverga.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/motore.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/new dish.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/olayinka-babalola.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/blacverga.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/panier.webp" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/popy.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/daal-vat.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/potato-verja.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/roti-sabji.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/seednakin.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/soop.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/foodpy.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/greefry.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/grenyjuice.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/sweet-jeery.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/tom-pot.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/tnh-nguyen.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/istockphoto.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/juice-green.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card">
+                    <img  class="image-card" src="section3-img/mangojuice.jpg" alt="Denim Jeans" style="width:100%">
+                    <h7>Tailored Jeans</h7>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="grid">
+          <!-- < class="row"> -->
+            <div class="col-sm-12 col-md-6">
+              <h1>CrazyFood</h1>
+              <p class="text-justify">Lloyd’s Register Foundation is a Registered Charity (Reg. no. 1145988) and limited company (Reg. no. 7905861) registered in England and Wales, and owner of Lloyd’s Register Group Limited.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="#">green foods</a></li>
+                <li><a href="#">amber foodsn</a></li>
+                <li><a href="#">red foods</a></li>
+                <li><a href="#">Grains, legumes, nuts and seed</a></li>
+                <li><a href="#">Fish and seafood</a></li>
+                <li><a href="#">Meat and poultry</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contribute</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+          
+          <hr>
+        </div>
+        <div class="container1">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+           <a href="#">Scanfcode</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li> 
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>    
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/jpp.js"></script>
+</body>
+
+</html>
